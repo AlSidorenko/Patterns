@@ -16,10 +16,21 @@ public class FactoryMethodApp {
         //Watch watch = new RomeWatch();
         //watch.showTime();
 
-        WatchMaker maker = new DigitalWatchMaker();
+        WatchMaker maker = getMakerByName("Digital");
+        //WatchMaker maker = new DigitalWatchMaker();
         //WatchMaker maker = new RomeWatchMaker();
         Watch watch = maker.createWatch();
         watch.showTime();
+    }
+
+    public static WatchMaker getMakerByName(String maker) {
+        if (maker.equals("Digital")) {
+            return new DigitalWatchMaker();
+        } else if (maker.equals("Rome")) {
+            return new RomeWatchMaker();
+        } else {
+            throw new RuntimeException("No production line." + maker);
+        }
     }
 }
 
