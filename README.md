@@ -53,3 +53,5 @@ Adapter (Структурный шаблон) - Итак, паттерн Adapter
 ##### [9. Decorator](https://github.com/AlSidorenko/Patterns/tree/master/src/decorator)
 Decorator (Структурный шаблон) - Добавляет новые функциональные возможности существующего объекта 
 без привязки его структуры.
+
+##### [10. Command](https://github.com/AlSidorenko/Patterns/tree/master/src/command)
