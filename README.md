@@ -58,4 +58,4 @@ Decorator (Структурный шаблон) - Добавляет новые 
 Command (Поведенческий шаблон) - Позволяет инкапсулировать различные операции в отдельные объекты. Основная идея, 
 стоящая за шаблоном — это предоставление средств, для разделения клиента и получателя.
 
-##### [10. Chain](https://github.com/AlSidorenko/Patterns/tree/master/src/chain)
+##### [11. Chain](https://github.com/AlSidorenko/Patterns/tree/master/src/chain)
