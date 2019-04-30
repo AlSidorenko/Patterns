@@ -59,3 +59,5 @@ Command (Поведенческий шаблон) - Позволяет инка�
 стоящая за шаблоном — это предоставление средств, для разделения клиента и получателя.
 
 ##### [11. Chain](https://github.com/AlSidorenko/Patterns/tree/master/src/chain)
+
+##### [12. Memento](https://github.com/AlSidorenko/Patterns/tree/master/src/memento)
