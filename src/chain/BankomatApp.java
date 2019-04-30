@@ -41,10 +41,10 @@ class Money {
     }
 
     public void setAmt(int amt) {
-        if (amt > 0 && amt <= 200_000 && amt % Note.R50 == 0) {
+        if (amt > 0 && amt <= 10_000 && amt % Note.R50 == 0) {
             this.amt = amt;
         } else {
-            throw new RuntimeException("Сумма должнп быть не более 100_000 и кратна 100");
+            throw new RuntimeException("Сумма должнп быть не более 10_000 и кратна 100");
         }
     }
 }
