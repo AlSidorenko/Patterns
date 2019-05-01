@@ -76,8 +76,10 @@ Observer (Поведенческий шаблон) - Шаблон определ
 одного из них зависимые от него узнавали об этом. Позволяет одним объектам наблюдать за действиями, 
 что происходят в других объектах.
 
-##### [15. Template Method](https://github.com/AlSidorenko/Patterns/tree/master/src/template_method)
+##### [15. State](https://github.com/AlSidorenko/Patterns/tree/master/src/state)
 
-##### [16. Strategy](https://github.com/AlSidorenko/Patterns/tree/master/src/strategy)
+##### [16. Template Method](https://github.com/AlSidorenko/Patterns/tree/master/src/template_method)
+
+##### [17. Strategy](https://github.com/AlSidorenko/Patterns/tree/master/src/strategy)
 Strategy (Поведенческий шаблон) – Шаблон стратегия позволяет переключаться между алгоритмами или стратегиями 
 в зависимости от ситуации.
