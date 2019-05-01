@@ -77,3 +77,7 @@ Observer (Поведенческий шаблон) - Шаблон определ
 что происходят в других объектах.
 
 ##### [15. Template Method](https://github.com/AlSidorenko/Patterns/tree/master/src/template_method)
+
+##### [16. Strategy](https://github.com/AlSidorenko/Patterns/tree/master/src/strategy)
+Strategy (Поведенческий шаблон) – Шаблон стратегия позволяет переключаться между алгоритмами или стратегиями 
+в зависимости от ситуации.
